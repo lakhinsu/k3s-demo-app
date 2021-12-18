@@ -8,7 +8,7 @@ Execute these commands to run the application locally.
 
 # Run on Kubernetes
 - Build the docker image and publish it on https://hub.docker.com/ repository.
-- Edit the k8s.deployment.yaml and replace `your-image` with the your published image.
+- Edit the k8s.deployment.yaml and replace `your-image` placeholder with your published image.
 - Add docker credentials on your Kubernetes environment (if required). This can be done by following this [documentation](https://kubernetes.io/docs/tasks/configure-pod-container/pull-image-private-registry/#create-a-secret-by-providing-credentials-on-the-command-line). 
 - Apply Kubernetes configuration by executing following commands.
 - `kubectl apply -f k8s.deployment.yaml`
