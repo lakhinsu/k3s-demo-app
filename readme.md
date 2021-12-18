@@ -12,5 +12,5 @@ Execute these commands to run the application locally.
 - Add docker credentials on your Kubernetes environment (if required). This can be done by following this [documentation](https://kubernetes.io/docs/tasks/configure-pod-container/pull-image-private-registry/#create-a-secret-by-providing-credentials-on-the-command-line). 
 - Apply Kubernetes configuration by executing following commands.
 - `kubectl apply -f k8s.deployment.yaml`
-- `kubectl appliy -f k8s.service.yaml`
+- `kubectl apply -f k8s.service.yaml`
 - `kubectl apply -f k8.ingress.yaml`
